@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Лабораторная работа №1</title>
+    <style>
+        .fig {
+         display: block; /* Блочный элемент (для старых браузеров) */
+         text-align: center; /* Выравнивание по центру */
+         font-style: italic; /* Курсивное начертание */
+         margin-top: 0; /* Отступ сверху */
+         margin-bottom: 5px; /* Отступ снизу */
+         color: #666; /* Цвет подрисуночной подписи */
+        }
+       </style>
 </head>
 <body>
     <div class="text">
@@ -208,5 +218,29 @@
             </tr>
         </table>
     </div>
+    <div class="form">
+        <dl>
+    <form>
+        <fieldset>
+            <legend>Пожалуйста, заполните форму</legend>
+        Процессор: <input type = "text"  name = "cpu" placeholder = "Введите информацию"> <br> <br>
+        Материнская плата: <input type = "text" name = "motherboard" placeholder = "Введите информацию"> <br> <br>
+        Оперативная память: <input type = "text"  name = "memory" placeholder = "Введите информацию"> <br> <br>
+        Корпус: <input type = "text" name = "case" placeholder = "Введите информацию"> <br> <br>
+        Блок питания: <input type = "text"  name = "powersupply" placeholder = "Введите информацию"> <br> <br>
+        Дисковые накопители: <input type = "text" name = "ssd" placeholder = "Введите информацию"> <br> <br>
+        Система охлаждения: <input type = "text"  name = "cooler" placeholder = "Введите информацию"> <br> <br>
+        Видеокарта: <input type = "text" name = "gpu" placeholder = "Введите информацию"> <br> <br>
+        <input type = "submit" name = "submit" value = "Отправить">
+        </fieldset>
+    </form>
+         </dl>
+    </div>
+    <figure class="fig"></figure>
+    <p><a href="http://dl.nure.ua"><img src="logo.jpg" width="100" 
+        height="100" alt="Пример"></a></p>
+        <figcaption>
+            Copyright © Все права защищенны &#169; 2021
+        </figcaption>
 </body>
 </html>
