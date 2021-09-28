@@ -1,7 +1,35 @@
+.text {
+  text-align: center;
+}
+.list {
+  text-align: center;
+}
 .center-img {
   display: block;
   margin: 0 auto;
 }
   .figure {
       text-align: center;
-  } 
+  }
+  div.field {
+    padding-bottom: 1px;
+  }
+  div.field label {
+    display: block;
+    float: center;
+  }
+  .form {
+    text-align: center;
+}
+.table {
+  width: 360px; /* Ширина таблицы */
+  margin: auto; /* Выравниваем таблицу по центру окна  */
+ }
+ .fig {
+  display: block; /* Блочный элемент (для старых браузеров) */
+  text-align: center; /* Выравнивание по центру */
+  font-style: italic; /* Курсивное начертание */
+  margin-top: 0; /* Отступ сверху */
+  margin-bottom: 5px; /* Отступ снизу */
+  color: #666; /* Цвет подрисуночной подписи */
+ }
